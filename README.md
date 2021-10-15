@@ -1,5 +1,6 @@
 # PostBlade
 A simple mock website for displaying mock data.
+Live on gh-pages : https://xrizwan.github.io/PostBlade/
 
 
 ### How to Run
