@@ -15,6 +15,7 @@ function App() {
   
   useEffect(() => {
     const isLogged = AuthenticationService.checkUser()
+    console.log(!!isLogged)
 
     setState({
       loading: false,
@@ -46,11 +47,6 @@ function App() {
       <Navbar isLogged={state.isLogged} onLogin={handleLogin} onLogout={handleLogout} />
       <Switch>
 
-        <Route exact path="/">
-          <div className="centered headingText">
-            {state.isLogged ? "Welcome" : "Please Login!"}
-          </div>
-        </Route>
         
         <Route exact path="/posts">
           <Posts isLogged={state.isLogged} />
@@ -60,6 +56,17 @@ function App() {
           <User isLogged={state.isLogged} />
         </Route>
 
+        <Route exact path="/PostBlade/">
+          <div className="centered headingText">
+            {state.isLogged ? "Welcome" : "Please Login!"}
+          </div>
+        </Route>
+
+        <Route exact path="/">
+          <div className="centered headingText">
+            {state.isLogged ? "Welcome" : "Please Login!"}
+          </div>
+        </Route>
       </Switch>
     </Router>
   );

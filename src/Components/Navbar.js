@@ -9,7 +9,7 @@ export default function Navbar({ isLogged, onLogin, onLogout }) {
         <div className="nav-wrapper">
           <div className="brand-logo left">
             <Link to="/" className="navButton black-text">PostBlade</Link>
-            <img src={sword} alt="sword-image" className="swordImage"></img>
+            <img src={sword} alt="sword" className="swordImage"></img>
           </div>
           <ul id="nav-mobile" className="right">
             {isLogged
