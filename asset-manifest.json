@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PostBlade/static/css/main.61cfb903.chunk.css",
+    "main.js": "/PostBlade/static/js/main.2755710f.chunk.js",
+    "main.js.map": "/PostBlade/static/js/main.2755710f.chunk.js.map",
+    "runtime-main.js": "/PostBlade/static/js/runtime-main.dda98d58.js",
+    "runtime-main.js.map": "/PostBlade/static/js/runtime-main.dda98d58.js.map",
+    "static/js/2.52c7cce9.chunk.js": "/PostBlade/static/js/2.52c7cce9.chunk.js",
+    "static/js/2.52c7cce9.chunk.js.map": "/PostBlade/static/js/2.52c7cce9.chunk.js.map",
+    "index.html": "/PostBlade/index.html",
+    "static/css/main.61cfb903.chunk.css.map": "/PostBlade/static/css/main.61cfb903.chunk.css.map",
+    "static/js/2.52c7cce9.chunk.js.LICENSE.txt": "/PostBlade/static/js/2.52c7cce9.chunk.js.LICENSE.txt",
+    "static/media/sword.87584c9f.png": "/PostBlade/static/media/sword.87584c9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dda98d58.js",
+    "static/js/2.52c7cce9.chunk.js",
+    "static/css/main.61cfb903.chunk.css",
+    "static/js/main.2755710f.chunk.js"
+  ]
+}
