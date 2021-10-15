@@ -1,38 +1,115 @@
-.App {
+.centered{
+  display: flex;
+  justify-content: center;
+}
+.thick-text {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
+.navButton {
+  position: relative;
+  top: -8px;
+}
+.semi-full {
+  width: 92vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.is-active {
+  background: rgba(0, 0, 0, 0.05);
+}
+.imageWrapper {
+  display: flex;
+  height: 100%;
+}
+.contactImage {
+  width: 100px !important;
+  margin: auto;
+}
+.contact-card {
+  width: 600px;
+  margin: 0 auto;
+}
+.headingText {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.navbar{
+  padding: 10px;
+  background-color: #ffab91;
+}
+.search-container{
+  display: flex;
+  background-color: white !important;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 10px !important;
+  transition: all 1s;
+}
+.query{
+  position: relative;
+  top: -8px;
+  width: 200px !important;
+  transition: all 1s;
+}
+.displaced {
+  margin-left: 10px;
+  font-size: 12px;
+  transition: all 1s;
+}
+.loader{
+  animation-name: spinner;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes spinner {
+  0%{
+    transform: rotate(0deg)
+  }
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.error{
+  font-size: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.swordImage{
+  width: 20px;
+  top: -5px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 600px) {
+  .search-container{
+    position: relative;
+    top: -1px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .brand-logo{
+    font-size: 15px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .contact-card {
+    width: 100%;
+  }
+  .search-container{
+    flex-direction: column;
+    padding: 15px;
+  }
+  .query {
+    width: 100% !important;
+    top: 0;
+  }
+  .displaced {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .swordImage {
+    width: 10px;
   }
 }
